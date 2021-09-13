@@ -14,7 +14,56 @@ biblio-style: apalike
 ---
 
 <!--"Using GitBooks to create Open course materials"-->
-# About GitBooks
+# Curso Superior de Tecnologia em Sistemas para Internet
+
+### Ementa
+
+- A natureza da Estatística, população e amostra. Caracterização de experimentos. 
+
+- Definição de probabilidades e o estudo da variável aleatória bem como seus componentes e conceitos. 
+
+- Modelos de distribuições discretas de probabilidade e de distribuições contínuas de probabilidade.
+
+### Objetivos
+
+#### Geral
+- Introduzir aos alunos os conceitos básicos de probabilidade e estatística.
+
+#### Específicos
+- Introduzir o uso de experimento, amostra e população; 
+- Uso da probabilidade; 
+- Uso de variável aleatória e distribuições.
+
+
+
+### Conteúdo Programático
+
+1)	Introdução à estatística.
+- Definições estatísticas;
+- População, amostra e evento.
+2)	Conceitos fundamentais.
+- Modelos estatísticos;
+- Medidas de tendência central e de variação.
+3)	Análise exploratória de dados.
+- Dados, variáveis qualitativas e quantitativas;
+- Distribuições de frequência e representação gráfica;
+- Estimação das medidas de tendência central, de variação e de posição.
+4)	Probabilidade e contagem.
+- Espaços amostrais, eventos e operações entre eventos;
+- Probabilidade condicional;
+- Regras da multiplicação e da adição.
+5)	Distribuições discretas de probabilidades.
+- Distribuições de Bernoulli, Binomial e de Poisson.
+6)	Distribuições contínuas de probabilidades.
+- Distribuição Normal e Normal Padrão.
+7)	Testes de hipóteses.
+- Testes unilaterais e bilaterais;
+- Erros de decisão.
+8)	Introdução ao estudo de regressão e correlação:
+- Regressão linear simples: estimação dos parâmetros do modelo;
+- Inferências sobre os parâmetros;
+- Correlação.
+
 
 ![](./img/using_gitbook.jpeg)
 
