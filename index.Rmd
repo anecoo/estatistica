@@ -1,12 +1,10 @@
 --- 
-title: "A GitBook Example for Teaching"
-author: "[dr. Caspar J. van Lissa](https://www.uu.nl/staff/CJvanLissa)"
+title: "EST2021 - Estatística"
+author: "[Antônio Neco de Oliveira, Dr.]()"
 date: "`r Sys.Date()`"
-description: This GitBook is an example of a GitBook for teaching. It can be 
-  adapted for specific courses. The output format for this example
-  is bookdown::gitbook.
+description: Apontamento para as aulas de Estatística.
 documentclass: book
-github-repo: cjvanlissa/gitbook-demo
+github-repo: anecoo/estatistica
 link-citations: yes
 bibliography:
 - book.bib
