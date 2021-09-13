@@ -2,10 +2,15 @@ fig:unnamed-chunk-1
 fig:unnamed-chunk-2
 fig:unnamed-chunk-3
 fig:unnamed-chunk-4
-about-gitbooks
+curso-superior-de-tecnologia-em-sistemas-para-internet
+ementa
+objetivos
+geral
+específicos
+conteúdo-programático
 why-use-a-gitbook-for-teaching
 est01---introdução
-objetivos
+objetivos-1
 definições
 probabilidade
 estatística
