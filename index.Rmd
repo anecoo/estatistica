@@ -16,14 +16,14 @@ biblio-style: apalike
 <!--"Using GitBooks to create Open course materials"-->
 
 
-# Estatística
+# Estatística{-}
 
 Neste página serão publicadas as anotações da disciplina de estatística para acompanhamento dos encontros síncronos.
 
 Para maiores informações o estudante deverá consultar a bibliografia referenciada.
 ![](./img/simbolo.jpg)
 
-## Ementa
+## Ementa{-}
 
 - A natureza da Estatística, população e amostra. Caracterização de experimentos. 
 
@@ -32,19 +32,19 @@ Para maiores informações o estudante deverá consultar a bibliografia referenc
 - Modelos de distribuições discretas de probabilidade e de distribuições contínuas de probabilidade.
 
 
-## Objetivos
+## Objetivos{-}
 
-### Geral
+### Geral{-}
 - Introduzir aos alunos os conceitos básicos de probabilidade e estatística.
 
-### Específicos
+### Específicos{-}
 - Introduzir o uso de experimento, amostra e população; 
 - Uso da probabilidade; 
 - Uso de variável aleatória e distribuições.
 
 
 
-## Conteúdo Programático
+## Conteúdo Programático{-}
 
 1)	Introdução à estatística.
     - Definições estatísticas;
@@ -81,7 +81,7 @@ Para maiores informações o estudante deverá consultar a bibliografia referenc
 
 
 
-## Metodologia de ensino e percurso formativo
+## Metodologia de ensino e percurso formativo{-}
 
 1.	Ensino remoto, via ambiente virtual de aprendizagem (Moodle), em concordância com Normas vigentes para a oferta de Carga Horária Semipresencial em Cursos Presenciais do IF Goiano e Regulamento de Oferta de Carga Horária Semipresencial em Cursos Presenciais do IF Goiano – Campus Morrinhos.
 
@@ -97,7 +97,7 @@ Para maiores informações o estudante deverá consultar a bibliografia referenc
 4.	Serão resolvidos exercícios e utilizadas ferramentas eletrônicas para a análise de dados.
 
 
-## Mecanismos de atendimento individualizado aos estudantes
+## Mecanismos de atendimento individualizado aos estudantes{-}
 
 - Os estudantes deverão primar pela participação em Fóruns, visando o compartilhamento das dúvidas. 
 - Mandar e-mail para o professor. 
@@ -105,7 +105,7 @@ Para maiores informações o estudante deverá consultar a bibliografia referenc
 E-mail: ``antonio.neco@ifgoiano.edu.br``
 
 
-## Forma, número e critérios de avaliação
+## Forma, número e critérios de avaliação{-}
 
 1) Atividade(s) avaliativa(s): 
     1.	Avaliações semanais dos conteúdos estudados através de listas de exercícios.
@@ -121,21 +121,21 @@ E-mail: ``antonio.neco@ifgoiano.edu.br``
 *Essas avaliações poderão ser modificadas, considerando a necessidade de cada turma e/ou o andamento do ano letivo, desde que devidamente esclarecidas para a turma.
 
 
-## Referências
+## Referências{-}
 
-### Básica
+### Básica{-}
 FONSECA, J. S. & MARTINS, G.A. Curso de estatística. 6ª ed., São Paulo: Atlas, 1996. 320p.: UFSC, 2003.
 BARBETTA, P. A.; REIS, M. M.; BORNIA, A. C. Estatística para cursos de Engenharia e Informática. Editora Atlas, 2004.
 CRESPO, A. A. Estatística. São Paulo: Editora Saraiva, 1997.
 
-### Complementar
+### Complementar{-}
 LAPPONI, J. C. Estatística usando o Excel. São Paulo: Lapponi Treinamento, 2000.
 BUSSAB, W. O. & MORETTIN, P. A. Estatística Básica. Editora Saraiva, 5º edição, 2006.
 MURTEIRA, B. Probabilidades e Estatísticas, Vol 1 e 2. Mc Graw-Hill, 1997.
 TOLEDO, G. L.; OVALLE, I. L. Estatística Básica. São Paulo: Atlas, 1995.
 MORETTIN, P.A. & BUSSAB, W.O. Métodos Quantitativos. 4ª Ed., São Paulo: Atual Editora Ltda., 1991.
 
-### Sugerida
+### Sugerida{-}
 LARSON, R. & FARBER, B. Estatística aplicada. 6ª ed. São Paulo: Pearson Education do Brasil, 2015.
 
 
