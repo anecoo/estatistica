@@ -2,7 +2,7 @@
 title: "EST2021 - Estatística"
 author: "[Antônio Neco de Oliveira, Dr.]()"
 date: "`r Sys.Date()`"
-description: Apontamento para as aulas de Estatística.
+description: Apontamento para as aulas de Estatística para os alunos do Curso de Tecnologia em Sistemas para Internet.
 documentclass: book
 github-repo: anecoo/estatistica
 link-citations: yes
@@ -18,7 +18,7 @@ biblio-style: apalike
 
 ![](./img/using_gitbook.jpeg)
 
-A *AULA DE ESTATÍSTICA* is a useful tool for creating (open?) educational resources. It is an online "book" format, that can be hosted directly from a GitHub repository. You are currently reading a GitBook designed to help you get started creating your own educational GitBooks for your courses (how meta!). It does this in two ways: By explaining how to create GitBooks, and by serving as a template that you can copy and edit, instead of having to start from scratch. This template GitBook has all the settings that I consider to be useful for educational GitBooks, but you can always customize it.
+A *AULA DE ESTATÍSTICA para o TSI* is a useful tool for creating (open?) educational resources. It is an online "book" format, that can be hosted directly from a GitHub repository. You are currently reading a GitBook designed to help you get started creating your own educational GitBooks for your courses (how meta!). It does this in two ways: By explaining how to create GitBooks, and by serving as a template that you can copy and edit, instead of having to start from scratch. This template GitBook has all the settings that I consider to be useful for educational GitBooks, but you can always customize it.
 
 I will focus specifically on GitBooks that are made in [Rstudio](https://rstudio.com), using the [`rmarkdown` markup language](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf), rendered using the [`bookdown` package](https://bookdown.org/yihui/bookdown/get-started.html), and hosted on [GitHub](https://github.com/). If you want to get started, skip ahead to Chapter \@ref(prerequisites); if you need more convincing, keep reading below.
 
