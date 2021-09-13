@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 3 Prerequisites | EST2021 - Estatística</title>
+  <title>Chapter 2 EST01 - Introdução | EST2021 - Estatística</title>
   <meta name="description" content="Apontamento para as aulas de Estatística." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 3 Prerequisites | EST2021 - Estatística" />
+  <meta property="og:title" content="Chapter 2 EST01 - Introdução | EST2021 - Estatística" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="anecoo/estatistica" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 3 Prerequisites | EST2021 - Estatística" />
+  <meta name="twitter:title" content="Chapter 2 EST01 - Introdução | EST2021 - Estatística" />
   
   <meta name="twitter:description" content="Apontamento para as aulas de Estatística." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="est01---introdução.html"/>
-<link rel="next" href="getgitbook.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="prerequisites.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -250,68 +250,288 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="prerequisites" class="section level1" number="3">
-<h1><span class="header-section-number">Chapter 3</span> Prerequisites</h1>
-<p>This GitBook is created in Rstudio, using the <code>bookdown</code> package. To get your system set up correctly, you have to install several software packages, and register on GitHub. You only have to perform these steps once, and the entire process should take approximately 1 hour if you start from scratch. In case some software is already installed on your system, you can skip related steps. Follow these steps in order:</p>
-<ol style="list-style-type: decimal">
-<li>Install R from <a href="https://cloud.r-project.org/">cloud.r-project.org</a></li>
-<li>Install Rstudio Desktop (Free) from <a href="https://rstudio.com/products/rstudio/download/#download">rstudio.com</a>
-<!-- ALWAYS RUN AS ADMIN -->
-<!-- install rtools --></li>
-<li>Install Git from <a href="https://git-scm.com/downloads">git-scm.com</a>. Use the default, recommended settings. It is especially important to leave these settings selected:
+<div id="est01---introdução" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> EST01 - Introdução</h1>
+<p>All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (<code>#</code>) per .Rmd file.</p>
+<div id="objetivos" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Objetivos</h2>
 <ul>
-<li>Git from the command line and also from third party software<br />
-</li>
-<li>Use the OpenSSL library<br />
-<!--*For secure data transfer with GitHub*--></li>
-<li>Checkout Windows-style, commit Unix-style line endings<br />
-<!--*This is the preferred setting when collaborating with others on different platforms. Be prepared that, on windows, you will receive harmless notifications about LF to CRLF line endings.  *--></li>
-<li>Enable Git Credential Manager<br />
-<!--*For logging in to GitHub*--></li>
-<li>If you run into any trouble, a more comprehensive tutorial on installing Git is available at <a href="https://happygitwithr.com/install-git.html">happygitwithr.com</a>.</li>
-</ul></li>
-<li>Register on GitHub
+<li><p>Apresentar os conceitos básicos e o objetivo da estatística.</p></li>
+<li><p>Estudar as definições associadas ao estudo de probabilidade.</p></li>
+</ul>
+</div>
+<div id="definições" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Definições</h2>
+<div id="probabilidade" class="section level3" number="2.2.1">
+<h3><span class="header-section-number">2.2.1</span> Probabilidade</h3>
 <ul>
-<li>Go to <a href="https://github.com/" class="uri">https://github.com/</a> and click “Sign up.” Choose an “Individual,” “Free” plan.</li>
-<li>Request a <a href="https://help.github.com/en/articles/applying-for-an-educator-or-researcher-discount">free academic upgrade</a>. This allows you to create <em>private repositories</em>, which are only visible to you and selected collaborators, and can be made public when your work is published.</li>
-</ul></li>
-<li>Connect Rstudio to Git and Github (for more support, see <a href="https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN">this Rstudio article</a>, and <a href="https://www.r-bloggers.com/rstudio-and-github/">this blog post</a>)
-<ol style="list-style-type: lower-alpha">
-<li>Open Rstudio, open the Tools menu, click <em>Global Options</em>, and click <em>Git/SVN</em></li>
-<li>Verify that <em>Enable version control interface for RStudio projects</em> is selected</li>
-<li>Verify that <em>Git executable:</em> shows the location of git.exe. If it is missing, manually fix the location of the file.</li>
-<li>Click <em>Create RSA Key</em>. Do not enter a passphrase. Press <em>Create</em>. A window with some information will open, which you can close.</li>
-<li>Click <em>View public key</em>, and copy the entire text to the clipboard.</li>
-<li>Close Rstudio (it might offer to restart by itself; this is fine)</li>
-<li>Go to <a href="https://github.com" class="uri">https://github.com</a></li>
-<li>Click your user icon, click <em>Settings</em>, and then select the <em>SSH and GPG keys</em> tab.</li>
-<li>Click <em>New SSH key</em>. Give it an arbitrary name (e.g., your computer ID), and paste the public key from your clipboard into the box labeled “<em>Key</em>.”</li>
-<li>Open Rstudio again (unless it restarted by itself)</li>
-</ol></li>
-<li>Install all required packages by running the following code in the Rstudio console. Be prepared for three contingencies:
+<li><p>A palavra probabilidade deriva do Latim probare (provar ou testar).</p></li>
+<li><p>Informalmente, outras palavras são utilizadas para eventos incertos ou conhecidos, como provável, sorte, risco, azar, incerteza, dependendo do contexto.</p></li>
+<li><p>A probabilidade é um número que varia de 0 (zero) a 1 (um) e que mede a chance de ocorrência de um determinado resultado.</p></li>
+<li><p>Quanto mais próxima de zero for a probabilidade, menores são as chances de ocorrer o resultado e quanto mais próxima de um for a probabilidade, maiores são as chances.</p></li>
+</ul>
+</div>
+<div id="estatística" class="section level3" number="2.2.2">
+<h3><span class="header-section-number">2.2.2</span> Estatística</h3>
 <ul>
-<li>If you receive any error saying <em>There is no package called XYZ</em>, then run the code <code>install.packages("XYZ")</code><br />
-</li>
-<li>If you are prompted to update packages, just press <code>3: None</code>. Updating packages this way in an interactive session sometimes leads to errors, if the packages are loaded.<br />
-</li>
-<li>If you see a pop-up dialog asking <em>Do you want to install from sources the package which needs compilation?</em>, click <em>No</em>. If this leads to errors, then please follow <em>Step 3</em> from <a href="https://cjvanlissa.github.io/worcs/articles/setup.html">this online guide</a>, and run <code>install.packages("devtools")</code>. This will take a long time, but will allow you to install packages from source.</li>
-</ul></li>
-</ol>
-<p>Run the following code to install the required packages:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="prerequisites.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;bookdown&quot;</span>)</span>
-<span id="cb2-2"><a href="prerequisites.html#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;tinytex&quot;</span>)</span>
-<span id="cb2-3"><a href="prerequisites.html#cb2-3" aria-hidden="true" tabindex="-1"></a>tinytex<span class="sc">::</span><span class="fu">install_tinytex</span>()</span>
-<span id="cb2-4"><a href="prerequisites.html#cb2-4" aria-hidden="true" tabindex="-1"></a>git2r<span class="sc">::</span><span class="fu">config</span>(<span class="at">global =</span> <span class="cn">TRUE</span>, <span class="at">user.name =</span> <span class="st">&quot;your.name&quot;</span>, <span class="at">user.email =</span> <span class="st">&quot;your.email&quot;</span>)</span></code></pre></div>
-<p>That’s it! Everything should be installed and connected now.</p>
+<li>A estatística é uma coleção de métodos para planejar experimentos, obter dados e organizar, resumir, analisar, interpretar e deles extrair conclusões.</li>
+</ul>
+</div>
+</div>
+<div id="introdução-à-estatísca" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Introdução à Estatísca</h2>
+<p>Informações divulgadas pelos meios de comunicação provém de pesquisas e estudos estatísticos:</p>
+<ul>
+<li><p>``a inflação esse mês foi …."</p></li>
+<li><p>``a taxa de desemprego no Brasil no ano de 2020…."</p></li>
+<li><p>``o candidato A tem 32% da intenção de votos, o candidato B tem 41% e 27% dos entrevistados não souberam ou não quiseram responder"</p></li>
+<li><p>``o número de carros vendidos no país aumentou em 20%"</p></li>
+<li><p>``a altura média da população aumentou em 5% "</p></li>
+<li><p>``o time A teve 60% do tempo de posse de bola, …"</p></li>
+</ul>
+</div>
+<div id="aplicação-da-estatística" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Aplicação da Estatística</h2>
+<p>Ajudar a responder perguntas do nosso dia a dia, como por exemplo:</p>
+<ul>
+<li>Na compra de 5 bilhetes de uma rifa. Teremos mais chances de ganhar se os números dos bilhetes forem em sequência ou se forem aleatórios?</li>
+</ul>
+</div>
+<div id="definições-de-probabilidade" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> Definições de Probabilidade</h2>
+<div id="termos-utilizados-em-probabilidade" class="section level3 unnumbered">
+<h3>Termos utilizados em probabilidade:</h3>
+<ul>
+<li><p>Experimento</p></li>
+<li><p>Espaço amostral</p></li>
+<li><p>Evento</p></li>
+<li><p>Operações entre eventos</p></li>
+</ul>
+</div>
+<div id="probabilidade-1" class="section level3" number="2.5.1">
+<h3><span class="header-section-number">2.5.1</span> Probabilidade:</h3>
+<ul>
+<li><p>Estudo da aleatoriedade da incerteza;</p></li>
+<li><p>É a quantificação do conhecimento que temos sobre um particular evento.</p></li>
+</ul>
+<p><strong>Exemplo:</strong></p>
+<ul>
+<li>Previsão do tempo:</li>
+<li>25% de probabilidade de chuva.</li>
+<li>Traduz a quantidade de informação que essa pessoa tem da possibilidade, ou não, de chuva.</li>
+</ul>
+</div>
+</div>
+<div id="experimento" class="section level2" number="2.6">
+<h2><span class="header-section-number">2.6</span> Experimento</h2>
+<div id="determinístico" class="section level3" number="2.6.1">
+<h3><span class="header-section-number">2.6.1</span> Determinístico:</h3>
+<ul>
+<li><p>Sempre se repete da mesma forma, apresentando o mesmo resultado.</p></li>
+<li><p>Exemplo: soltar uma caneta de uma certa altura;</p></li>
+<li><p>Resultado: a caneta vai cair.</p></li>
+</ul>
+</div>
+<div id="aleatório" class="section level3" number="2.6.2">
+<h3><span class="header-section-number">2.6.2</span> Aleatório:</h3>
+<ul>
+<li>O resultado do experimento sempre terá um valor diferente.</li>
+<li>Exemplo: Soltar a caneta e medir a distância que ela cai de um determinado local.</li>
+<li>Resultado: a caneta ficará sempre em distância diferente.</li>
+</ul>
+</div>
+</div>
+<div id="espaço-amostral" class="section level2" number="2.7">
+<h2><span class="header-section-number">2.7</span> Espaço Amostral</h2>
+<ul>
+<li><p>Relação de todos os resultados possíveis de um determinado experimento.</p></li>
+<li><p>Denotado pela letra <strong>S</strong> ou <span class="math inline">\(\boldsymbol{\Omega}\)</span>.</p></li>
+<li><p>Exemplo: resultados possíveis no lançamento de um dado.
+<span class="math display">\[ S = \{1, 2, 3, 4, 5, 6\} \]</span></p></li>
+</ul>
+</div>
+<div id="evento" class="section level2" number="2.8">
+<h2><span class="header-section-number">2.8</span> Evento</h2>
+<ul>
+<li><p>Subconjunto do espaço amostral.</p></li>
+<li><p>Pode ser constituído por um ou mais resultados.</p></li>
+<li><p>Exemplo: resultados possíveis no lançamento de um dado cujo valor é ímpar.
+<span class="math display">\[ \{1, 3, 5\} \]</span></p></li>
+</ul>
+</div>
+<div id="operações-entre-eventos" class="section level2" number="2.9">
+<h2><span class="header-section-number">2.9</span> Operações entre eventos</h2>
+<div id="união" class="section level3" number="2.9.1">
+<h3><span class="header-section-number">2.9.1</span> União</h3>
+<ul>
+<li>Acontece <strong>A</strong> ou <strong>B</strong> ou os dois.</li>
+</ul>
+<span class="math display">\[A \cup B\]</span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
+<img src="figuras/uniao.PNG" alt="União." width="25%" />
+<p class="caption">
+Figure 2.1: União.
+</p>
+</div>
+</div>
+<div id="intersecção" class="section level3" number="2.9.2">
+<h3><span class="header-section-number">2.9.2</span> Intersecção</h3>
+<ul>
+<li>Ocorre <strong>A</strong> e <strong>B</strong> (os dois) ou todos os eventos.</li>
+</ul>
+<span class="math display">\[A\cap B\]</span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="figuras/interseccao.PNG" alt="Intersecção" width="25%" />
+<p class="caption">
+Figure 2.2: Intersecção
+</p>
+</div>
+</div>
+<div id="evento-complementar" class="section level3" number="2.9.3">
+<h3><span class="header-section-number">2.9.3</span> Evento Complementar</h3>
+<ul>
+<li>Não ocorrência do evento considerado.
+<span class="math display">\[\overline{A}\]</span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
+<img src="figuras/complemento.PNG" alt="Complemento." width="25%" />
+<p class="caption">
+Figure 2.3: Complemento.
+</p>
+</div></li>
+</ul>
+</div>
+<div id="eventos-mutuamente-excludentes" class="section level3" number="2.9.4">
+<h3><span class="header-section-number">2.9.4</span> Eventos Mutuamente Excludentes</h3>
+<ul>
+<li>Não possuem nenhum resultado em comum.
+<span class="math display">\[A \cap B = \varnothing\]</span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="figuras/excludente.PNG" alt="Excludente" width="25%" />
+<p class="caption">
+Figure 2.4: Excludente
+</p>
+</div></li>
+</ul>
+</div>
+</div>
+<div id="definições-de-probabilidade-1" class="section level2" number="2.10">
+<h2><span class="header-section-number">2.10</span> Definições de Probabilidade</h2>
+<div id="clássica" class="section level3" number="2.10.1">
+<h3><span class="header-section-number">2.10.1</span> Clássica</h3>
+<ul>
+<li><p>É a razão entre um número de resultados favoráveis de um evento e o número de resultados prováveis (considerando eventos igualmente prováveis).</p>
+<p><span class="math display">\[ p=\dfrac{m}{n} \]</span></p></li>
+<li><p><span class="math inline">\(p =\)</span> probabilidade;</p></li>
+<li><p><span class="math inline">\(m =\)</span> número de resultados favoráveis;</p></li>
+<li><p><span class="math inline">\(n =\)</span> número de resultados possíveis.</p></li>
+</ul>
+<p><strong>Exemplo:</strong> em uma rifa de 100 números, comprado 5, temos:
+<span class="math display">\[p=\dfrac{5}{100}=5 \% = 0,05 \]</span></p>
+</div>
+<div id="definição-frequencialista" class="section level3" number="2.10.2">
+<h3><span class="header-section-number">2.10.2</span> Definição Frequencialista</h3>
+<ul>
+<li><p>Para definir probabilidade usa um histórico do que já aconteceu.</p></li>
+<li><p>Assume o valor limite de frequência relativa.</p></li>
+<li><p><span class="math inline">\(\lim_{n\rightarrow \infty} \frac{m}{n}\)</span></p></li>
+<li><p><span class="math inline">\(m =\)</span> número de vezes que o evento ocorreu;</p></li>
+<li><p><span class="math inline">\(n =\)</span> número de experimentos (razoavelmente grande).</p></li>
+</ul>
+</div>
+<div id="definição-axiomática" class="section level3" number="2.10.3">
+<h3><span class="header-section-number">2.10.3</span> Definição Axiomática</h3>
+<p>Probabilidade é um número associado a um evento que obedece a três leis:</p>
+<ul>
+<li><p><span class="math inline">\(P(E) \geq\)</span> 0;</p></li>
+<li><p><span class="math inline">\(P(S) = 1\)</span> (probabilidade do evento certo);</p></li>
+<li><p><span class="math inline">\(P(E \cup F)=P(E) + P(F)\)</span></p></li>
+<li><p>E e F são mutuamente exclusivos;</p></li>
+<li><p>Permite desenvolver toda uma teoria a respeito da probabilidade.</p></li>
+</ul>
+</div>
+<div id="definição-subjetiva" class="section level3" number="2.10.4">
+<h3><span class="header-section-number">2.10.4</span> Definição Subjetiva</h3>
+<ul>
+<li><p>Depende da avaliação pessoal;</p></li>
+<li><p>Adotada quando não se tem outra forma de atribuir probabilidade;</p></li>
+<li><p>Baseada em conceitos prévios de cada um.</p></li>
+</ul>
+<p><strong>Exemplo:</strong></p>
+<pre><code>Dois comentaristas esportivos: 
 
+1) O time A ganhará;
+2) O vitorioso será o time B. </code></pre>
+</div>
+</div>
+<div id="observações-gerais" class="section level2" number="2.11">
+<h2><span class="header-section-number">2.11</span> Observações Gerais</h2>
+<ul>
+<li><code>Clássica:</code> nem sempre pode ser utilizada.</li>
+</ul>
+<p><strong>Exemplo:</strong> Probabilidade de um avião cair;</p>
+<p><em>Espaço amostral:</em> <span class="math inline">\(S=\{Sim, Não\}\)</span>;</p>
+<p><span class="math inline">\(P=50\%\)</span>; ERRO!</p>
+<ul>
+<li><p><code>Frequencialista:</code> deve ser aplicada quando o número de eventos tende ao infinito.</p></li>
+<li><p><code>Axiomática:</code> combinação de eventos elementares.</p></li>
+</ul>
+<div id="definições-1" class="section level3" number="2.11.1">
+<h3><span class="header-section-number">2.11.1</span> Definições</h3>
+<ul>
+<li>A probabilidade de eventos complexos será calculada a partir de eventos elementares.</li>
+<li>A probabilidade de eventos elementares será calculada a partir de cada definição. \
+Clássica (equiprováveis), frequencialista (histórico), subjetiva (nível de informação).</li>
+</ul>
+</div>
+<div id="definições-exemplos" class="section level3" number="2.11.2">
+<h3><span class="header-section-number">2.11.2</span> Definições – Exemplos</h3>
+<ul>
+<li>Evento: Lançamento de uma moeda <code>honesta</code>;</li>
+</ul>
+<p>Resultado: cara (c) ou coroa (k);</p>
+<p><span class="math display">\[p=1/2=0,5 = 50\%\]</span></p>
+<ul>
+<li><p>Se a moeda estiver viciada deve-se usar a definição frequencialista.</p></li>
+<li><p>Lancei uma moeda ao alto e já tenho o resultado, mas não sei: <span class="math inline">\(p=0,5\)</span></p></li>
+</ul>
+<div id="lançamento-feito-para-duas-pessoas-diferentes" class="section level4 unnumbered">
+<h4>Lançamento feito para duas pessoas diferentes:</h4>
+<ul>
+<li><p>uma tem aceso ao resultado e responde cara ou coroa: (<span class="math inline">\(p=1,0\)</span>);</p></li>
+<li><p>a outra não tem acesso ao resultado e responde cara ou coroa: (<span class="math inline">\(p=0,5\)</span>);</p></li>
+</ul>
+<p><em>As pessoas estão em estados de informações diferentes.</em></p>
+</div>
+</div>
+</div>
+<div id="exercícios" class="section level2" number="2.12">
+<h2><span class="header-section-number">2.12</span> Exercícios</h2>
+<ol style="list-style-type: decimal">
+<li>Em um cassino, localizado em certo país no exterior, o dono providenciou um dado especial. Nesse dado a probabilidade de sair determinado ponto é inversamente proporcional a seu valor.
+Um aluno de Estatística, ao visitar esse cassino, resolveu investigar se estava sendo trapaceado. Com base na observação de diversos eventos, para elaborar um relatório, ele fez os cálculos das probabilidades a seguir.
+Sabendo como o dado se comporta, calcule:</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>a probabilidade de sair um número menor que 3;</li>
+<li>a probabilidade de sair um número par;</li>
+<li>a probabilidade de sair um número primo;</li>
+<li>a probabilidade de sair ponto 3;</li>
+<li>a probabilidade de sair ponto 6.</li>
+</ol>
+<p>% Todas as opções seguintes são opcionais e não são necessárias.
+
+\section<presentation><em>{}
+\subsection<presentation></em>{Para leitura complementar}</p>
+
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="est01---introdução.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="getgitbook.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="prerequisites.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -342,7 +562,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/cjvanlissa/gitbook-demo/edit/master/prerequisites.Rmd",
+"link": "https://github.com/cjvanlissa/gitbook-demo/edit/master/01-intro.Rmd",
 "text": "Edit"
 },
 "history": {
