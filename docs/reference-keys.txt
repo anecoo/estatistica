@@ -8,7 +8,6 @@ objetivos
 geral
 específicos
 conteúdo-programático
-why-use-a-gitbook-for-teaching
 est01---introdução
 objetivos-1
 definições
