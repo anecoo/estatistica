@@ -1,7 +1,7 @@
 --- 
 title: "EST - Estatística"
 author: "[Antônio Neco de Oliveira, Dr.]()"
-date: "`r Sys.Date()`"
+date: "`r format.Date(Sys.Date(), '%d/%m/%Y')`"
 description: Apontamento para as aulas de Estatística para os alunos do Curso de Tecnologia em Sistemas para Internet.
 documentclass: book
 github-repo: anecoo/estatistica
