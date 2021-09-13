@@ -1,5 +1,5 @@
 --- 
-title: "EST2021 - Estatística"
+title: "EST - Estatística"
 author: "[Antônio Neco de Oliveira, Dr.]()"
 date: "`r Sys.Date()`"
 description: Apontamento para as aulas de Estatística para os alunos do Curso de Tecnologia em Sistemas para Internet.
@@ -14,7 +14,14 @@ biblio-style: apalike
 ---
 
 <!--"Using GitBooks to create Open course materials"-->
+
+
 # Estatística
+
+Neste página serão publicadas as anotações da disciplina de estatística para acompanhamento dos encontros síncronos.
+
+Para maiores informações o estudante deverá consultar a bibliografia referenciada.
+![](./img/simbolo.jpg)
 
 ## Ementa
 
@@ -27,10 +34,10 @@ biblio-style: apalike
 
 ## Objetivos
 
-#### Geral
+### Geral
 - Introduzir aos alunos os conceitos básicos de probabilidade e estatística.
 
-#### Específicos
+### Específicos
 - Introduzir o uso de experimento, amostra e população; 
 - Uso da probabilidade; 
 - Uso de variável aleatória e distribuições.
@@ -40,37 +47,97 @@ biblio-style: apalike
 ## Conteúdo Programático
 
 1)	Introdução à estatística.
-- Definições estatísticas;
-- População, amostra e evento.
+    - Definições estatísticas;
+    - População, amostra e evento.
 
 2)	Conceitos fundamentais.
-- Modelos estatísticos;
-- Medidas de tendência central e de variação.
+    - Modelos estatísticos;
+    - Medidas de tendência central e de variação.
 
 3)	Análise exploratória de dados.
-- Dados, variáveis qualitativas e quantitativas;
-- Distribuições de frequência e representação gráfica;
-- Estimação das medidas de tendência central, de variação e de posição.
+    - Dados, variáveis qualitativas e quantitativas;
+    - Distribuições de frequência e representação gráfica;
+    - Estimação das medidas de tendência central, de variação e de posição.
 
 4)	Probabilidade e contagem.
-- Espaços amostrais, eventos e operações entre eventos;
-- Probabilidade condicional;
-- Regras da multiplicação e da adição.
+    - Espaços amostrais, eventos e operações entre eventos;
+    - Probabilidade condicional;
+    - Regras da multiplicação e da adição.
 
 5)	Distribuições discretas de probabilidades.
-- Distribuições de Bernoulli, Binomial e de Poisson.
+    - Distribuições de Bernoulli, Binomial e de Poisson.
 
 6)	Distribuições contínuas de probabilidades.
-- Distribuição Normal e Normal Padrão.
+    - Distribuição Normal e Normal Padrão.
 
 7)	Testes de hipóteses.
-- Testes unilaterais e bilaterais;
-- Erros de decisão.
+    - Testes unilaterais e bilaterais;
+    - Erros de decisão.
 
 8)	Introdução ao estudo de regressão e correlação:
-- Regressão linear simples: estimação dos parâmetros do modelo;
-- Inferências sobre os parâmetros;
-- Correlação.
+    - Regressão linear simples: estimação dos parâmetros do modelo;
+    - Inferências sobre os parâmetros;
+    - Correlação.
 
 
-![](./img/simbolo.jpg)
+
+## Metodologia de ensino e percurso formativo
+
+1.	Ensino remoto, via ambiente virtual de aprendizagem (Moodle), em concordância com Normas vigentes para a oferta de Carga Horária Semipresencial em Cursos Presenciais do IF Goiano e Regulamento de Oferta de Carga Horária Semipresencial em Cursos Presenciais do IF Goiano – Campus Morrinhos.
+
+2.	As aulas serão ministradas nos encontros síncronos dispostos no Ambiente Virtual de Aprendizagem AVA – Moodle, contendo:
+
+    a)	Slides e textos teóricos sobre o conteúdo ministrado;
+    b)	Fórum para dúvidas;
+    c)	Link para o encontro síncrono via Google Meet; 
+    d)	Atividades e questionários para o acompanhamento da aprendizagem.
+
+3.	Em cada aula serão apresentados os conceitos teóricos relacionados ao conteúdo em estudo.
+
+4.	Serão resolvidos exercícios e utilizadas ferramentas eletrônicas para a análise de dados.
+
+
+## Mecanismos de atendimento individualizado aos estudantes
+
+- Os estudantes deverão primar pela participação em Fóruns, visando o compartilhamento das dúvidas. 
+- Mandar e-mail para o professor. 
+- Contudo, será oferecido a possibilidade de agendamento de videoconferências individualizadas ou horários para videoconferências tira-dúvidas.
+E-mail: ``antonio.neco@ifgoiano.edu.br``
+
+
+## Forma, número e critérios de avaliação
+
+1) Atividade(s) avaliativa(s): 
+    1.	Avaliações semanais dos conteúdos estudados através de listas de exercícios.
+    2.	Trabalhos avaliativos utilizando erramentas eletrônicas de análise de dados.
+    3.	Cada atividade realizada valerá 10,0 (dez) pontos e a nota final será a média aritmética das notas de todos os trabalhos desenvolvidos no período.
+    4.	Listas de exercícios e questionários, disponibilizados no AVA-Moodle, de acordo com o conteúdo estudado.
+
+2) Feedback da avaliação:
+
+    - Ao final de cada atividade avaliativa no Moodle, serão fornecidas as respostas esperadas e a atividade será tema de discussão no encontro virtual seguinte, caso haja dúvidas.
+
+
+*Essas avaliações poderão ser modificadas, considerando a necessidade de cada turma e/ou o andamento do ano letivo, desde que devidamente esclarecidas para a turma.
+
+
+## Referências
+
+### Básica
+FONSECA, J. S. & MARTINS, G.A. Curso de estatística. 6ª ed., São Paulo: Atlas, 1996. 320p.: UFSC, 2003.
+BARBETTA, P. A.; REIS, M. M.; BORNIA, A. C. Estatística para cursos de Engenharia e Informática. Editora Atlas, 2004.
+CRESPO, A. A. Estatística. São Paulo: Editora Saraiva, 1997.
+
+### Complementar
+LAPPONI, J. C. Estatística usando o Excel. São Paulo: Lapponi Treinamento, 2000.
+BUSSAB, W. O. & MORETTIN, P. A. Estatística Básica. Editora Saraiva, 5º edição, 2006.
+MURTEIRA, B. Probabilidades e Estatísticas, Vol 1 e 2. Mc Graw-Hill, 1997.
+TOLEDO, G. L.; OVALLE, I. L. Estatística Básica. São Paulo: Atlas, 1995.
+MORETTIN, P.A. & BUSSAB, W.O. Métodos Quantitativos. 4ª Ed., São Paulo: Atual Editora Ltda., 1991.
+
+### Sugerida
+LARSON, R. & FARBER, B. Estatística aplicada. 6ª ed. São Paulo: Pearson Education do Brasil, 2015.
+
+
+#[@barbetta2004estatistica]
+
