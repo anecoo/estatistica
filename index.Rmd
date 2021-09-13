@@ -14,7 +14,7 @@ biblio-style: apalike
 ---
 
 <!--"Using GitBooks to create Open course materials"-->
-# Curso Superior de Tecnologia em Sistemas para Internet
+# Estatística
 
 ### Ementa
 

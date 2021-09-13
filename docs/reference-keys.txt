@@ -2,7 +2,7 @@ fig:unnamed-chunk-1
 fig:unnamed-chunk-2
 fig:unnamed-chunk-3
 fig:unnamed-chunk-4
-curso-superior-de-tecnologia-em-sistemas-para-internet
+estatística
 ementa
 objetivos
 geral
@@ -13,7 +13,7 @@ est01---introdução
 objetivos-1
 definições
 probabilidade
-estatística
+estatística-1
 introdução-à-estatísca
 aplicação-da-estatística
 definições-de-probabilidade
