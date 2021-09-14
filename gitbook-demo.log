@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.23)  13 SEP 2021 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.23)  13 SEP 2021 18:21
 entering extended mode
 **./gitbook-demo.tex
 (gitbook-demo.tex
@@ -563,58 +563,54 @@ Package hyperref Warning: Suppressing link with empty target on input line 91.
 [3] [4
 
 ]
-Chapter 1.
 <./img/simbolo.jpg, id=27, 251.43938pt x 172.39406pt>
 File: ./img/simbolo.jpg Graphic file (type jpg)
 <use ./img/simbolo.jpg>
-Package pdftex.def Info: ./img/simbolo.jpg  used on input line 102.
+Package pdftex.def Info: ./img/simbolo.jpg  used on input line 103.
 (pdftex.def)             Requested size: 251.43875pt x 172.39363pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-09.
+11.
 (C:\Users\aneco\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [5 <./img/simbolo.jpg>] [6]
+)
+Underfull \vbox (badness 6741) has occurred while \output is active []
+
+[5 <./img/simbolo.jpg>] [6]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-70.
+78.
 (C:\Users\aneco\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Overfull \hbox (39.76283pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10 1.5.  MECANISMOS DE ATENDIMENTO INDIVIDUALIZADO AOS ESTUDANTES 
-\T1/lmr/m/n/10 7
- []
-
-[7]
+) [7]
 
 Package natbib Warning: Citation `barbetta2004estatistica' on page 8 undefined 
-on input line 329.
+on input line 342.
 
 [8]
-Chapter 2.
+Chapter 1.
 [9
 
 ] [10]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 478.
+(Font)              <10> on input line 491.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 478.
+(Font)              <7> on input line 491.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 478.
+(Font)              <5> on input line 491.
 <figuras/uniao.png, id=124, 224.33812pt x 124.21407pt>
 File: figuras/uniao.png Graphic file (type png)
 <use figuras/uniao.png>
-Package pdftex.def Info: figuras/uniao.png  used on input line 513.
+Package pdftex.def Info: figuras/uniao.png  used on input line 526.
 (pdftex.def)             Requested size: 86.24892pt x 47.75526pt.
 [11]
 <figuras/interseccao.png, id=148, 253.69781pt x 137.01187pt>
 File: figuras/interseccao.png Graphic file (type png)
 <use figuras/interseccao.png>
-Package pdftex.def Info: figuras/interseccao.png  used on input line 533.
+Package pdftex.def Info: figuras/interseccao.png  used on input line 546.
 (pdftex.def)             Requested size: 86.24837pt x 46.57924pt.
 <figuras/complemento.png, id=149, 227.34938pt x 124.21407pt>
 File: figuras/complemento.png Graphic file (type png)
 <use figuras/complemento.png>
-Package pdftex.def Info: figuras/complemento.png  used on input line 551.
+Package pdftex.def Info: figuras/complemento.png  used on input line 564.
 (pdftex.def)             Requested size: 86.25142pt x 47.12411pt.
 
 ! LaTeX Error: \caption outside float.
@@ -623,15 +619,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.555 \caption
+l.568 \caption
               {Complemento.} 
 Here is how much of TeX's memory you used:
- 13208 strings out of 478868
- 199183 string characters out of 2848809
+ 13206 strings out of 478868
+ 199129 string characters out of 2848809
  536637 words of memory out of 3000000
  30646 multiletter control sequences out of 15000+600000
- 481058 words of font info for 148 fonts, out of 8000000 for 9000
+ 480961 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,6n,80p,519b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,6n,80p,519b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 !  ==> Fatal error occurred, no output PDF file produced!

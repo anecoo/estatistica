@@ -1,6 +1,8 @@
-# EST01 - Introdução
+# Introdução
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
+Conceitos iniciais sobre o estudo da disciplina de Estatística.
+
+`(estes apontamentos não substituem o material referenciado)`
 
 ## Objetivos
 
@@ -301,7 +303,7 @@ e) a probabilidade de sair ponto 6.
 
 \section{Referências}
 
-% Todas as opções seguintes são opcionais e não são necessárias. 
+ 
 \appendix
 \section<presentation>*{\appendixname}
 \subsection<presentation>*{Para leitura complementar}

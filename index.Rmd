@@ -1,5 +1,5 @@
 --- 
-title: "EST - Estatística"
+title: "E S T A T Í S T I C A"
 author: "[Antônio Neco de Oliveira, Dr.]()"
 date: "`r format.Date(Sys.Date(), '%d/%m/%Y')`"
 description: Apontamento para as aulas de Estatística para os alunos do Curso de Tecnologia em Sistemas para Internet.
@@ -38,9 +38,8 @@ Para maiores informações o estudante deverá consultar a bibliografia referenc
 - Introduzir aos alunos os conceitos básicos de probabilidade e estatística.
 
 ### Específicos{-}
-- Introduzir o uso de experimento, amostra e população; 
-- Uso da probabilidade; 
-- Uso de variável aleatória e distribuições.
+- Introduzir os conceitos de experimento, amostra, população e probabilidade; 
+- Entender as definições de variável aleatória e distribuições de probabilidade.
 
 
 
@@ -107,7 +106,7 @@ E-mail: ``antonio.neco@ifgoiano.edu.br``
 
 ## Forma, número e critérios de avaliação{-}
 
-1) Atividade(s) avaliativa(s): 
+1) Atividade(s) avaliativa(s)^[Essas avaliações poderão ser modificadas, considerando a necessidade de cada turma e/ou o andamento do ano letivo, desde que devidamente esclarecidas para a turma.]: 
     1.	Avaliações semanais dos conteúdos estudados através de listas de exercícios.
     2.	Trabalhos avaliativos utilizando erramentas eletrônicas de análise de dados.
     3.	Cada atividade realizada valerá 10,0 (dez) pontos e a nota final será a média aritmética das notas de todos os trabalhos desenvolvidos no período.
@@ -118,7 +117,7 @@ E-mail: ``antonio.neco@ifgoiano.edu.br``
     - Ao final de cada atividade avaliativa no Moodle, serão fornecidas as respostas esperadas e a atividade será tema de discussão no encontro virtual seguinte, caso haja dúvidas.
 
 
-*Essas avaliações poderão ser modificadas, considerando a necessidade de cada turma e/ou o andamento do ano letivo, desde que devidamente esclarecidas para a turma.
+
 
 
 ## Referências{-}

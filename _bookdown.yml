@@ -8,13 +8,6 @@ rmd_files: ["index.Rmd",
             "06-normal-padronizada.Rmd",
             "07-testes-hipoteses.Rmd",
             "08-correlacao-regressao.Rmd",
-            #"prerequisites.Rmd",
-            #"get_your_gitbook.Rmd",
-            #"editing_the_book.Rmd",
-            #"figures_tables.Rmd",
-            #"examples.Rmd",
-            #"open_educational.Rmd",
-            #"use_in_course.Rmd",
             #"licenses.Rmd",
             "references.Rmd"]
 output_dir: "docs"
