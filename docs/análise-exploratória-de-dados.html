@@ -119,28 +119,6 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
-<style type="text/css">
-/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}
-</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -204,7 +182,6 @@ div.csl-indent {
 <li class="chapter" data-level="1.9.1" data-path="introdução.html"><a href="introdução.html#união"><i class="fa fa-check"></i><b>1.9.1</b> União</a></li>
 <li class="chapter" data-level="1.9.2" data-path="introdução.html"><a href="introdução.html#intersecção"><i class="fa fa-check"></i><b>1.9.2</b> Intersecção</a></li>
 <li class="chapter" data-level="1.9.3" data-path="introdução.html"><a href="introdução.html#evento-complementar"><i class="fa fa-check"></i><b>1.9.3</b> Evento Complementar</a></li>
-<li class="chapter" data-level="1.9.4" data-path="introdução.html"><a href="introdução.html#eventos-mutuamente-excludentes"><i class="fa fa-check"></i><b>1.9.4</b> Eventos Mutuamente Excludentes</a></li>
 </ul></li>
 <li class="chapter" data-level="1.10" data-path="introdução.html"><a href="introdução.html#definições-de-probabilidade-1"><i class="fa fa-check"></i><b>1.10</b> Definições de Probabilidade</a>
 <ul>
@@ -396,9 +373,9 @@ div.csl-indent {
 <li><p>Numa pesquisa, levantou-se algumas características dos visitantes de um site, tais como o sexo, a idade, o nível de instrução e o provedor utilizado.</p></li>
 <li><p>Consideraremos apenas uma amostra de 40 pessoas.</p></li>
 </ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="análise-exploratória-de-dados.html#cb2-1" aria-hidden="true" tabindex="-1"></a>provedor <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&#39;C&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;C&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;C&#39;</span>, <span class="st">&#39;A&#39;</span>, </span>
-<span id="cb2-2"><a href="análise-exploratória-de-dados.html#cb2-2" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;B&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;C&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;A&#39;</span>, </span>
-<span id="cb2-3"><a href="análise-exploratória-de-dados.html#cb2-3" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;A&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;C&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;C&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;C&#39;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="análise-exploratória-de-dados.html#cb1-1" aria-hidden="true" tabindex="-1"></a>provedor <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&#39;C&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;C&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;C&#39;</span>, <span class="st">&#39;A&#39;</span>, </span>
+<span id="cb1-2"><a href="análise-exploratória-de-dados.html#cb1-2" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;B&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;C&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;A&#39;</span>, </span>
+<span id="cb1-3"><a href="análise-exploratória-de-dados.html#cb1-3" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;A&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;C&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;A&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;C&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;C&#39;</span>)</span></code></pre></div>
 <ul>
 <li>Realizar a distribuição de frequência absoluta com a função <em>table</em> (contar o número de ocorrência de cada provedor) <code>table(provedor)</code>.</li>
 </ul>
@@ -408,7 +385,7 @@ div.csl-indent {
 <ul>
 <li>Gerar o gráfico de barras com a função <em>barplot</em> <code>barplot(table(provedor), col = 2:5)</code>.</li>
 </ul>
-<p><img src="gitbook-demo_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<p><img src="estatistica_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 <ul>
 <li>Gerar as distribuições de frequências e o gráfico com a função <em>pareto.chart</em>. Essa função gera um gráfico de barras com as frequências absolutas e um gráfico de linha com a frequência relativa acumulada, além de gerar uma tabela com as distribuições absoluta, absoluta acumulada, relativa e relativa acumulada.</li>
 </ul>
@@ -456,11 +433,11 @@ div.csl-indent {
 <ul>
 <li>Gerar o gráfico de Pareto <code>qcc::pareto.chart</code>.</li>
 </ul>
-<p><img src="gitbook-demo_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p><img src="estatistica_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
 <ul>
 <li>Gerar o gráfico de pizza com a função <em>pie</em>.</li>
 </ul>
-<p><img src="gitbook-demo_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<p><img src="estatistica_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
 </div>
 <div id="exercício-1-análise-exploratória-de-dados" class="section level3" number="2.3.3">
 <h3><span class="header-section-number">2.3.3</span> Exercício 1: Análise Exploratória de Dados</h3>
@@ -546,12 +523,12 @@ div.csl-indent {
 <li>Gráfico de barras:
 <code>barplot(freq, col = 2:7, xlab = "Classes", ylab = "Frequências")</code></li>
 </ul>
-<p><img src="gitbook-demo_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<p><img src="estatistica_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
 <ul>
 <li>Tabela e gráfico de Pareto:
 <code>round(pareto.chart(data = freq, plot = T), 2)</code></li>
 </ul>
-<p><img src="gitbook-demo_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
+<p><img src="estatistica_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
 <pre><code>##             
 ## Pareto chart analysis for freq
 ##              Frequency Cum.Freq. Percentage Cum.Percent.
@@ -604,7 +581,7 @@ div.csl-indent {
 ##              9             10              5              3              2 
 ##    (4.29,5.14]    (5.14,6.01] 
 ##              0              1</code></pre>
-<p><img src="gitbook-demo_files/figure-html/unnamed-chunk-16-1.png" width="672" /><img src="gitbook-demo_files/figure-html/unnamed-chunk-16-2.png" width="672" /></p>
+<p><img src="estatistica_files/figure-html/unnamed-chunk-12-1.png" width="672" /><img src="estatistica_files/figure-html/unnamed-chunk-12-2.png" width="672" /></p>
 <pre><code>##                 
 ## Pareto chart analysis for freq
 ##                  Frequency Cum.Freq. Percentage Cum.Percent.
@@ -971,11 +948,11 @@ div.csl-indent {
 ##              0              1</code></pre>
 <p><strong>A representação gráfica para o caso das frequências absolutas:</strong></p>
 <p><code>barplot(table(cut(x, breaks = 7, include.lowest = T, right = T)),      col = 2:8, xlab = "Classes", ylab = "Frequências")</code></p>
-<p><img src="gitbook-demo_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
+<p><img src="estatistica_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
 <ul>
 <li>Utilizando a função <code>qcc::pareto.chart</code>:</li>
 </ul>
-<p><img src="gitbook-demo_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
+<p><img src="estatistica_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
 <pre><code>##                 
 ## Pareto chart analysis for freq
 ##                  Frequency Cum.Freq. Percentage Cum.Percent.
@@ -1023,9 +1000,9 @@ div.csl-indent {
 <li><p>Para cada aluno é encontrada a nota média e recorrendo a uma amostra de 42 alunos obteve-se:</p></li>
 </ul></li>
 </ul>
-<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="análise-exploratória-de-dados.html#cb15-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">4.2</span>, <span class="fl">2.7</span>, <span class="fl">4.6</span>, <span class="fl">2.5</span>, <span class="fl">3.3</span>, <span class="fl">4.7</span>, <span class="fl">4.0</span>, <span class="fl">2.4</span>, <span class="fl">3.9</span>, <span class="fl">1.2</span>, <span class="fl">4.1</span>, <span class="fl">4.0</span>, <span class="fl">3.1</span>, <span class="fl">2.4</span>,</span>
-<span id="cb15-2"><a href="análise-exploratória-de-dados.html#cb15-2" aria-hidden="true" tabindex="-1"></a>       <span class="fl">3.8</span>, <span class="fl">3.8</span>, <span class="fl">1.8</span>, <span class="fl">4.5</span>, <span class="fl">2.7</span>, <span class="fl">2.2</span>, <span class="fl">3.7</span>, <span class="fl">2.2</span>, <span class="fl">4.4</span>, <span class="fl">2.8</span>, <span class="fl">2.3</span>, <span class="fl">1.9</span>, <span class="fl">3.6</span>, <span class="fl">3.9</span>,</span>
-<span id="cb15-3"><a href="análise-exploratória-de-dados.html#cb15-3" aria-hidden="true" tabindex="-1"></a>       <span class="fl">2.3</span>, <span class="fl">3.4</span>, <span class="fl">3.3</span>, <span class="fl">1.8</span>, <span class="fl">3.5</span>, <span class="fl">4.1</span>, <span class="fl">2.2</span>, <span class="fl">3.0</span>, <span class="fl">4.1</span>, <span class="fl">3.4</span>, <span class="fl">3.2</span>, <span class="fl">2.2</span>, <span class="fl">3.0</span>, <span class="fl">2.8</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="análise-exploratória-de-dados.html#cb14-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">4.2</span>, <span class="fl">2.7</span>, <span class="fl">4.6</span>, <span class="fl">2.5</span>, <span class="fl">3.3</span>, <span class="fl">4.7</span>, <span class="fl">4.0</span>, <span class="fl">2.4</span>, <span class="fl">3.9</span>, <span class="fl">1.2</span>, <span class="fl">4.1</span>, <span class="fl">4.0</span>, <span class="fl">3.1</span>, <span class="fl">2.4</span>,</span>
+<span id="cb14-2"><a href="análise-exploratória-de-dados.html#cb14-2" aria-hidden="true" tabindex="-1"></a>       <span class="fl">3.8</span>, <span class="fl">3.8</span>, <span class="fl">1.8</span>, <span class="fl">4.5</span>, <span class="fl">2.7</span>, <span class="fl">2.2</span>, <span class="fl">3.7</span>, <span class="fl">2.2</span>, <span class="fl">4.4</span>, <span class="fl">2.8</span>, <span class="fl">2.3</span>, <span class="fl">1.9</span>, <span class="fl">3.6</span>, <span class="fl">3.9</span>,</span>
+<span id="cb14-3"><a href="análise-exploratória-de-dados.html#cb14-3" aria-hidden="true" tabindex="-1"></a>       <span class="fl">2.3</span>, <span class="fl">3.4</span>, <span class="fl">3.3</span>, <span class="fl">1.8</span>, <span class="fl">3.5</span>, <span class="fl">4.1</span>, <span class="fl">2.2</span>, <span class="fl">3.0</span>, <span class="fl">4.1</span>, <span class="fl">3.4</span>, <span class="fl">3.2</span>, <span class="fl">2.2</span>, <span class="fl">3.0</span>, <span class="fl">2.8</span>)</span></code></pre></div>
 </div>
 <div id="tabela-de-frequências" class="section level3 unnumbered">
 <h3>Tabela de frequências</h3>
@@ -1054,7 +1031,7 @@ div.csl-indent {
 <div id="representação-gráfica-1" class="section level3 unnumbered">
 <h3>Representação gráfica</h3>
 <p>O gráfico para representar a distribuição de pode ser plotado utilizando ou a representação de Pareto</p>
-<p><img src="gitbook-demo_files/figure-html/unnamed-chunk-22-1.png" width="672" /><img src="gitbook-demo_files/figure-html/unnamed-chunk-22-2.png" width="672" /></p>
+<p><img src="estatistica_files/figure-html/unnamed-chunk-18-1.png" width="672" /><img src="estatistica_files/figure-html/unnamed-chunk-18-2.png" width="672" /></p>
 </div>
 </div>
 <div id="diagrama-de-ramo-e-folha" class="section level2" number="2.6">
@@ -1065,8 +1042,9 @@ div.csl-indent {
 <li><p>Um diagrama de ramo e folha é similar a um histograma, com a vantagem de o gráfico ainda conter os valores originais dos dados.</p></li>
 <li><p>Outra vantagem de um diagrama de ramo e folha é que ele fornece uma maneira fácil de ordenar os dados.</p></li>
 <li><p>É importante incluir uma chave para o diagrama de ramo e folha para identificar os valores dos dados, mostrando um valor representado por um ramo e uma folha.</p></li>
-<li><p>O comando para exibir o diagrama de ramo e folha é .</p></li>
+<li><p>O comando para exibir o diagrama de ramo e folha é <code>stem(x)</code>.</p></li>
 </ul>
+<p><strong><code>1.2 1.8 1.8 1.9 2.2 2.2 2.2 2.2 2.3 2.3 2.4 2.4 2.5 2.7 2.7 2.8 2.8 3.0 3.0 3.1 3.2 3.3 3.3 3.4 3.4 3.5 3.6 3.7 3.8 3.8 3.9 3.9 4.0 4.0 4.1 4.1 4.1 4.2 4.4 4.5 4.6 4.7</code></strong></p>
 <pre><code>## 
 ##   The decimal point is at the |
 ## 
@@ -1133,7 +1111,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["gitbook-demo.pdf"],
+"download": ["estatistica.pdf"],
 "search": {
 "engine": "fuse",
 "options": null

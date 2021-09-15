@@ -1,4 +1,4 @@
-book_filename: "gitbook-demo"
+book_filename: "estatistica"
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
             "02-aed.Rmd",

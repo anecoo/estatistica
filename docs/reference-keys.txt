@@ -54,3 +54,5 @@ distribuição-normal-de-probabilidade
 distribuição-normal-padronizada
 testes-de-hipóteses
 correlação-e-regressão
+section
+fig:unnamed-chunk-5

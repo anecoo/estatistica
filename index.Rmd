@@ -15,12 +15,25 @@ biblio-style: apalike
 
 <!--"Using GitBooks to create Open course materials"-->
 
-
+```{r, include=F}
+library(captioner)
+figures <- captioner(prefix = "Figura", auto_space = FALSE)
+#tables <- captioner(prefix = "Table S",  auto_space = FALSE)
+```
 # Estatística{-}
 
 Neste página serão publicadas as anotações da disciplina de estatística para acompanhamento dos encontros síncronos.
 
-Todos os exemplos e exercícios serão demonstrados utilizando a linguagem de programação R.
+
+
+![](https://www.r-project.org/Rlogo.png){width=50px} Todos os exemplos e exercícios serão demonstrados utilizando a linguagem de programação R.
+
+
+
+
+
+
+
 
 Para maiores informações o estudante deverá consultar a bibliografia referenciada.
 ![](./img/simbolo.jpg)
