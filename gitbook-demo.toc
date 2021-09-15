@@ -1,0 +1,51 @@
+\contentsline {chapter}{Estatística}{5}{chapter*.2}%
+\contentsline {section}{Ementa}{5}{section*.3}%
+\contentsline {section}{Objetivos}{6}{section*.4}%
+\contentsline {subsection}{Geral}{6}{section*.5}%
+\contentsline {subsection}{Específicos}{6}{section*.6}%
+\contentsline {section}{Conteúdo Programático}{6}{section*.7}%
+\contentsline {section}{Metodologia de ensino e percurso formativo}{6}{section*.8}%
+\contentsline {section}{Mecanismos de atendimento individualizado aos estudantes}{7}{section*.9}%
+\contentsline {section}{Forma, número e critérios de avaliação}{7}{section*.10}%
+\contentsline {section}{Referências}{8}{section*.11}%
+\contentsline {subsection}{Básica}{8}{section*.12}%
+\contentsline {subsection}{Complementar}{8}{section*.13}%
+\contentsline {subsection}{Sugerida}{8}{section*.14}%
+\contentsline {chapter}{\numberline {1}EST01 - Introdução}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivos}{9}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Definições}{9}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Probabilidade}{9}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Estatística}{9}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Introdução à Estatísca}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Aplicação da Estatística}{10}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Definições de Probabilidade}{10}{section.1.5}%
+\contentsline {subsection}{Termos utilizados em probabilidade:}{10}{section*.15}%
+\contentsline {subsection}{\numberline {1.5.1}Probabilidade:}{10}{subsection.1.5.1}%
+\contentsline {section}{\numberline {1.6}Experimento}{11}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Determinístico:}{11}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Aleatório:}{11}{subsection.1.6.2}%
+\contentsline {section}{\numberline {1.7}Espaço Amostral}{11}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Evento}{11}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Operações entre eventos}{11}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}União}{11}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.2}Intersecção}{12}{subsection.1.9.2}%
+\contentsline {subsection}{\numberline {1.9.3}Evento Complementar}{12}{subsection.1.9.3}%
+\contentsline {subsection}{\numberline {1.9.4}Eventos Mutuamente Excludentes}{12}{subsection.1.9.4}%
+\contentsline {section}{\numberline {1.10}Definições de Probabilidade}{13}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}Clássica}{13}{subsection.1.10.1}%
+\contentsline {subsection}{\numberline {1.10.2}Definição Frequencialista}{13}{subsection.1.10.2}%
+\contentsline {subsection}{\numberline {1.10.3}Definição Axiomática}{13}{subsection.1.10.3}%
+\contentsline {subsection}{\numberline {1.10.4}Definição Subjetiva}{14}{subsection.1.10.4}%
+\contentsline {section}{\numberline {1.11}Observações Gerais}{14}{section.1.11}%
+\contentsline {subsection}{\numberline {1.11.1}Definições}{14}{subsection.1.11.1}%
+\contentsline {subsection}{\numberline {1.11.2}Definições -- Exemplos}{14}{subsection.1.11.2}%
+\contentsline {subsubsection}{Lançamento feito para duas pessoas diferentes:}{15}{section*.16}%
+\contentsline {section}{\numberline {1.12}Exercícios}{15}{section.1.12}%
+\contentsline {section}{\numberline {1.13}Referências}{15}{section.1.13}%
+\contentsline {chapter}{\numberline {A}Análise Exploratória de Dados}{19}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Probabilidades}{21}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Distribuições Discretas de Probabilidades}{23}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Distribuição Normal de Probabilidade}{25}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Distribuição normal padronizada}{27}{appendix.E}%
+\contentsline {chapter}{\numberline {F}Testes de Hipóteses}{29}{appendix.F}%
+\contentsline {chapter}{\numberline {G}Correlação e Regressão}{31}{appendix.G}%

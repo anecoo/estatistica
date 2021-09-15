@@ -2,7 +2,7 @@
 title: "E S T A T Í S T I C A"
 author: "[Antônio Neco de Oliveira, Dr.]()"
 date: "`r format.Date(Sys.Date(), '%d/%m/%Y')`"
-description: Apontamento para as aulas de Estatística para os alunos do Curso de Tecnologia em Sistemas para Internet.
+description: Apontamento para as aulas de Estatística para os discentes do Curso de Tecnologia em Sistemas para Internet.
 documentclass: book
 github-repo: anecoo/estatistica
 link-citations: yes
@@ -19,6 +19,8 @@ biblio-style: apalike
 # Estatística{-}
 
 Neste página serão publicadas as anotações da disciplina de estatística para acompanhamento dos encontros síncronos.
+
+Todos os exemplos e exercícios serão demonstrados utilizando a linguagem de programação R.
 
 Para maiores informações o estudante deverá consultar a bibliografia referenciada.
 ![](./img/simbolo.jpg)
@@ -114,7 +116,7 @@ E-mail: ``antonio.neco@ifgoiano.edu.br``
 
 2) Feedback da avaliação:
 
-    - Ao final de cada atividade avaliativa no Moodle, serão fornecidas as respostas esperadas e a atividade será tema de discussão no encontro virtual seguinte, caso haja dúvidas.
+- Ao final de cada atividade avaliativa no Moodle, serão fornecidas as respostas esperadas e a atividade será tema de discussão no encontro virtual seguinte, caso haja dúvidas.
 
 
 
